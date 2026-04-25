@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitae — Your Health History, Always With You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+
+<nav>
+  <a href="index.html" class="nav-brand">
+    <img src="uploads/vitae-logo.png" alt="Vitae">
+    Vitae
+  </a>
+  <ul class="nav-links">
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="legal.html">Legal Notice</a></li>
+    <li><a href="licenses.html">Licenses</a></li>
+    <li>
+      <a href="https://ko-fi.com/mrbt" target="_blank" rel="noopener noreferrer" class="nav-support">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+          <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+          <line x1="6" y1="1" x2="6" y2="4"/>
+          <line x1="10" y1="1" x2="10" y2="4"/>
+          <line x1="14" y1="1" x2="14" y2="4"/>
+        </svg>
+        Support
+      </a>
+    </li>
+  </ul>
+  <label for="nav-toggle" class="hamburger" aria-label="Menu">
+    <svg class="icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+    <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18"/>
+      <line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </label>
+</nav>
+
+<ul class="mobile-menu">
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="legal.html">Legal Notice</a></li>
+  <li><a href="licenses.html">Licenses</a></li>
+  <li>
+    <a href="https://ko-fi.com/mrbt" target="_blank" rel="noopener noreferrer" class="mob-support">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+        <line x1="6" y1="1" x2="6" y2="4"/>
+        <line x1="10" y1="1" x2="10" y2="4"/>
+        <line x1="14" y1="1" x2="14" y2="4"/>
+      </svg>
+      Support
+    </a>
+  </li>
+</ul>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <img src="uploads/vitae-logo.png" alt="Vitae" class="hero-app-icon">
+      <h1 class="hero-headline">
+        Your health history.
+        <span class="hero-headline-accent">In your hands.</span>
+      </h1>
+      <p class="hero-sub">I lost years of my medical records overnight. I built Vitae so it never happens to you.</p>
+      <div class="store-badges">
+        <img src="uploads/app-store-badge.svg" alt="Download on the App Store" class="store-badge">
+        <img src="uploads/google-play-badge.png" alt="Get it on Google Play" class="store-badge">
+      </div>
+    </div>
+    <div class="hero-phone-wrap">
+      <div class="phone-mockup">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-screen-inner">
+            <div class="phone-screen-header">
+              <div class="phone-screen-home-icon">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#49B3A5" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                </svg>
+              </div>
+              <div class="phone-screen-header-line"></div>
+            </div>
+            <div class="phone-screen-card">
+              <div class="phone-card-row">
+                <div class="phone-card-dot"></div>
+                <div class="phone-card-line"></div>
+              </div>
+              <div class="phone-card-body"></div>
+            </div>
+            <div class="phone-screen-card">
+              <div class="phone-card-row">
+                <div class="phone-card-dot"></div>
+                <div class="phone-card-line"></div>
+              </div>
+              <div class="phone-card-body"></div>
+            </div>
+            <div class="phone-screen-card">
+              <div class="phone-card-row">
+                <div class="phone-card-dot"></div>
+                <div class="phone-card-line"></div>
+              </div>
+              <div class="phone-card-body"></div>
+            </div>
+            <div class="phone-screen-footer">
+              <div class="phone-footer-line teal"></div>
+              <div class="phone-footer-line grey1"></div>
+              <div class="phone-footer-line grey2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY I BUILT VITAE -->
+<section class="story-section">
+  <div class="story-inner">
+    <h2 class="section-title">Why I built Vitae</h2>
+    <div class="story-body">
+      <p>I had been going to the same hospital my whole life: same dermatologist, same doctors, same physical folder they kept for me there. One day I showed up for an appointment and my record was just gone. Empty folder. Years of visits, diagnoses, and notes, vanished.</p>
+      <p>It turned out the hospital had erased everything when I switched from my dad's health insurance to my mom's. As if I had become a different person.</p>
+      <p>I was studying Computer Science at the time, and I made a decision: I would build the app I wished had existed. One where I own my health history. Not a hospital, not an insurance company.</p>
+      <p>That app is Vitae.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section">
+  <div class="features-bg"></div>
+  <div class="features-inner">
+    <h2 class="features-headline">Your health story, finally in one place.</h2>
+    <p class="features-sub">Vitae is a personal health record that lives on your phone. No account, no cloud, no one else touching your data. Just your complete health history, always with you.</p>
+    <div class="features-card">
+      <div class="features-card-title">Keep track of everything that matters</div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/>
+            <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/>
+            <circle cx="20" cy="10" r="2"/>
+          </svg>
+        </div>
+        <span class="feature-label">Doctor visits and notes from each appointment</span>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <line x1="10" y1="9" x2="8" y2="9"/>
+          </svg>
+        </div>
+        <span class="feature-label">Exam results and medical documents</span>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/>
+            <line x1="8.5" y1="8.5" x2="15.5" y2="15.5"/>
+          </svg>
+        </div>
+        <span class="feature-label">Medications and vaccines</span>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <span class="feature-label">Symptoms over time</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="pillars-section">
+  <div class="pillars-inner">
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="pillar-title">Private by design</div>
+        <p class="pillar-desc">Your data stays on your device. No cloud, no tracking, no compromise.</p>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <div class="pillar-title">Fully yours</div>
+        <p class="pillar-desc">Export, share, or delete your records at any time. You own your health story.</p>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon-wrap">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <div class="pillar-title">Built for real life</div>
+        <p class="pillar-desc">Created by a human for other humans.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIO -->
+<section class="bio-section">
+  <div class="bio-badges store-badges">
+    <img src="uploads/app-store-badge.svg" alt="Download on the App Store" class="store-badge">
+    <img src="uploads/google-play-badge.png" alt="Get it on Google Play" class="store-badge">
+  </div>
+  <h3 class="bio-headline">Built by one person who uses it every day.</h3>
+  <p class="bio-text">I'm Mari, a software engineer. I built Vitae for myself first. I use it for every appointment, every exam result, every new medication. If it works for me, I think it'll work for you too.</p>
+</section>
+
+<footer>© 2026 Vitae. Your health, your data, your story.</footer>
+
+</body>
+</html>
