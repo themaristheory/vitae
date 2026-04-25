@@ -6,6 +6,11 @@
   <title>Vitae — Your Health History, Always With You</title>
   <link rel="icon" type="image/png" href="/uploads/vitae-logo.png">
   <link rel="stylesheet" href="style.css">
+  <script>
+    const lang = navigator.language || navigator.userLanguage || '';
+    if (lang.startsWith('de')) location.replace('/de/');
+    else if (lang.startsWith('pt')) location.replace('/pt-br/');
+  </script>
 </head>
 <body>
 
