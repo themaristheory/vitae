@@ -182,74 +182,12 @@ nav {
   display: flex; justify-content: center; align-items: flex-end;
   padding-top: 40px;
 }
-.phone-mockup {
-  width: 240px;
-  background: #111;
-  border-radius: 42px;
-  padding: 12px;
-  box-shadow: 0 30px 80px rgba(0,0,0,0.25), 0 2px 8px rgba(0,0,0,0.15);
+.hero-phone-img {
+  height: min(780px, calc(100vh - 180px));
+  width: auto; max-width: 100%;
+  display: block;
+  filter: drop-shadow(0 30px 60px rgba(0,0,0,0.28)) drop-shadow(0 2px 6px rgba(0,0,0,0.12));
 }
-.phone-notch {
-  width: 80px; height: 26px;
-  background: #111;
-  border-radius: 20px;
-  margin: 0 auto 8px;
-}
-.phone-screen {
-  background: var(--surface);
-  border-radius: 32px;
-  overflow: hidden;
-  aspect-ratio: 9 / 19.5;
-}
-.phone-screen-inner {
-  width: 100%; height: 100%;
-  background: linear-gradient(160deg, #f0f9f7 0%, #e8f5f3 100%);
-  display: flex; flex-direction: column;
-  padding: 16px 12px;
-}
-.phone-screen-header {
-  display: flex; align-items: center; gap: 6px;
-  margin-bottom: 12px;
-}
-.phone-screen-home-icon {
-  width: 24px; height: 24px; border-radius: 6px;
-  background: #DEF2EE;
-  display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0;
-}
-.phone-screen-header-line {
-  height: 3px; flex: 1;
-  background: #EEE5DB; border-radius: 2px;
-}
-.phone-screen-card {
-  background: white; border-radius: 10px;
-  padding: 10px; margin-bottom: 8px;
-  border: 1px solid var(--divider);
-}
-.phone-card-row {
-  display: flex; gap: 6px; align-items: center; margin-bottom: 6px;
-}
-.phone-card-dot {
-  width: 14px; height: 14px; border-radius: 50%;
-  background: #DEF2EE; flex-shrink: 0;
-}
-.phone-card-line {
-  height: 3px; flex: 1;
-  background: #EEE5DB; border-radius: 2px;
-}
-.phone-card-body {
-  height: 2px; background: #F5F0E9;
-  border-radius: 2px; width: 70%;
-}
-.phone-screen-footer {
-  margin-top: 8px;
-}
-.phone-footer-line {
-  height: 2px; border-radius: 2px; margin-bottom: 6px;
-}
-.phone-footer-line.teal  { background: #DEF2EE; width: 50%; }
-.phone-footer-line.grey1 { background: #EEE5DB; width: 80%; }
-.phone-footer-line.grey2 { background: #EEE5DB; width: 65%; margin-bottom: 0; }
 
 /* ─── STORY SECTION ─── */
 .story-section {
@@ -465,7 +403,7 @@ footer {
     gap: 48px;
   }
   .hero-phone-wrap { order: -1; padding-top: 0; }
-  .phone-mockup { width: 180px; }
+  .hero-phone-img { width: 260px; height: auto; }
   .story-inner, .features-inner { padding: 72px 24px; }
   .pillars-section { padding: 72px 24px; }
   .pillars-grid { grid-template-columns: 1fr; }
