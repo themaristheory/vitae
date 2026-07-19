@@ -12,7 +12,7 @@ You can note down doctor visits, dentist appointments, therapy sessions, medical
 
 The type of the event determines its icon and color:
 
-![](/img/guide/en/timeline-event-types.png "Medical History event types colors and icons")
+![](/img/guide/en/timeline-event-types-1-.png "Medical History event types colors and icons")
 
 ### Adding an event
 
