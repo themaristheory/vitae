@@ -7,6 +7,8 @@ backend:
 site_url: https://vitae.mrbt-software.com
 display_url: https://vitae.mrbt-software.com
 logo_url: /uploads/vitae-logo.png
+media_folder: static/img/guide
+public_folder: /img/guide
 
 collections:
   - name: guide_en
