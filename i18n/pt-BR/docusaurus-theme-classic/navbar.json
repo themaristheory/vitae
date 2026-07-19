@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Vitae",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Vitae",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Guide": {
+    "message": "Guia",
+    "description": "Navbar item with label Guide"
+  },
+  "item.label.Support": {
+    "message": "Suporte",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Legal": {
+    "message": "Informações legais",
+    "description": "Navbar item with label Legal"
+  },
+  "item.label.Privacy Policy": {
+    "message": "Política de Privacidade",
+    "description": "Navbar item with label Privacy Policy"
+  },
+  "item.label.Legal Notice": {
+    "message": "Aviso Legal",
+    "description": "Navbar item with label Legal Notice"
+  },
+  "item.label.Licenses": {
+    "message": "Licenças",
+    "description": "Navbar item with label Licenses"
+  }
+}
