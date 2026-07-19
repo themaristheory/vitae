@@ -1,7 +1,6 @@
 ---
-title: "Primeiros passos"
+title: "Consulta de saúde"
 sidebar_position: 1
-slug: /
 ---
 
 Em breve.

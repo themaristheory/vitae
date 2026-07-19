@@ -1,7 +1,6 @@
 ---
-title: "Getting Started"
+title: "Medical History"
 sidebar_position: 1
-slug: /
 ---
 
 Coming soon.

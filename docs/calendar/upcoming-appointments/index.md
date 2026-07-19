@@ -1,7 +1,6 @@
 ---
-title: "Getting Started"
+title: "Upcoming Appointments"
 sidebar_position: 1
-slug: /
 ---
 
 Coming soon.

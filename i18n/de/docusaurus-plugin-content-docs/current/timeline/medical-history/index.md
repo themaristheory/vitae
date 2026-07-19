@@ -1,7 +1,6 @@
 ---
-title: "Erste Schritte"
+title: "Medizinischer Verlauf"
 sidebar_position: 1
-slug: /
 ---
 
 Demnächst verfügbar.

@@ -1,7 +1,6 @@
 ---
-title: "Erste Schritte"
+title: "Ereignis aus vergangenem Termin erstellen"
 sidebar_position: 1
-slug: /
 ---
 
 Demnächst verfügbar.

@@ -1,7 +1,6 @@
 ---
-title: "Primeiros passos"
+title: "Próximas consultas"
 sidebar_position: 1
-slug: /
 ---
 
 Em breve.

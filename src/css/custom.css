@@ -35,18 +35,42 @@
   --ifm-color-primary-lighter: #338d85;
   --ifm-color-primary-lightest: #3aa097;
   --ifm-font-family-base: 'Plus Jakarta Sans', sans-serif;
+  --ifm-background-color: #fffcf9;
+  --ifm-background-surface-color: #f5f0e9;
+  --ifm-font-color-base: #554940;
+  --ifm-font-color-secondary: #75685d;
+  --ifm-heading-color: #554940;
+  --ifm-menu-color: #75685d;
+  --ifm-menu-color-background-active: #fffcf9;
+  --ifm-toc-border-color: #e7ded4;
+  --ifm-hr-background-color: #eee5db;
+  --ifm-code-background: #f4eee6;
+  --ifm-breadcrumb-item-background-active: #def2ee;
   --ifm-navbar-background-color: rgba(255, 252, 249, 0.96);
   --ifm-footer-background-color: #f5f0e9;
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #69c8bc;
-  --ifm-color-primary-dark: #50beb0;
-  --ifm-color-primary-darker: #43baab;
-  --ifm-color-primary-darkest: #379d91;
-  --ifm-color-primary-light: #82d2c8;
-  --ifm-color-primary-lighter: #8fd6cd;
-  --ifm-color-primary-lightest: #b5e5df;
+  --ifm-color-primary: #5ed1cb;
+  --ifm-color-primary-dark: #47c9c2;
+  --ifm-color-primary-darker: #3bc5be;
+  --ifm-color-primary-darkest: #32a8a2;
+  --ifm-color-primary-light: #75d9d4;
+  --ifm-color-primary-lighter: #81dcd7;
+  --ifm-color-primary-lightest: #abe8e5;
+  --ifm-background-color: #1f1b18;
+  --ifm-background-surface-color: #2a2522;
+  --ifm-font-color-base: #f5f1eb;
+  --ifm-font-color-secondary: #d1cbc4;
+  --ifm-heading-color: #f5f1eb;
+  --ifm-menu-color: #d1cbc4;
+  --ifm-menu-color-background-active: #1f3a39;
+  --ifm-toc-border-color: #3a342f;
+  --ifm-hr-background-color: #3a342f;
+  --ifm-code-background: #332e2a;
+  --ifm-breadcrumb-item-background-active: #1f3a39;
+  --ifm-navbar-background-color: rgba(42, 37, 34, 0.96);
+  --ifm-footer-background-color: #242018;
 }
 
 .navbar {
@@ -65,6 +89,37 @@
 
 .footer__links {
   margin-bottom: 1rem;
+}
+
+.theme-doc-sidebar-container {
+  background: var(--ifm-background-surface-color);
+}
+
+.theme-doc-markdown,
+.table-of-contents__link,
+.breadcrumbs__link {
+  color: var(--ifm-font-color-base);
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  color: var(--ifm-font-color-base);
+}
+
+.pagination-nav__link {
+  border-color: #e7ded4;
+}
+
+.pagination-nav__link:hover {
+  border-color: #2c7b73;
+}
+
+[data-theme='dark'] .pagination-nav__link {
+  border-color: #3a342f;
+}
+
+[data-theme='dark'] .pagination-nav__link:hover {
+  border-color: #5ed1cb;
 }
 
 .landing-page {

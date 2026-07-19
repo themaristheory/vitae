@@ -1,7 +1,6 @@
 ---
-title: "Primeiros passos"
+title: "Especialidades"
 sidebar_position: 1
-slug: /
 ---
 
 Em breve.

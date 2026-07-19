@@ -1,7 +1,6 @@
 ---
-title: "Getting Started"
+title: "Specialties"
 sidebar_position: 1
-slug: /
 ---
 
 Coming soon.

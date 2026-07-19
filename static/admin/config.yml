@@ -21,6 +21,15 @@ collections:
     slug: "{{slug}}"
     media_folder: /static/img/guide/en
     public_folder: /img/guide/en
+    nested:
+      depth: 4
+      summary: "{{title}}"
+      subfolders: true
+    meta:
+      path:
+        widget: string
+        label: Path
+        index_file: index
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Sidebar position, name: sidebar_position, widget: number, value_type: int, min: 1 }
@@ -36,6 +45,15 @@ collections:
     slug: "{{slug}}"
     media_folder: /static/img/guide/pt-BR
     public_folder: /img/guide/pt-BR
+    nested:
+      depth: 4
+      summary: "{{title}}"
+      subfolders: true
+    meta:
+      path:
+        widget: string
+        label: Caminho
+        index_file: index
     fields:
       - { label: Título, name: title, widget: string }
       - { label: Posição na barra lateral, name: sidebar_position, widget: number, value_type: int, min: 1 }
@@ -51,6 +69,15 @@ collections:
     slug: "{{slug}}"
     media_folder: /static/img/guide/de
     public_folder: /img/guide/de
+    nested:
+      depth: 4
+      summary: "{{title}}"
+      subfolders: true
+    meta:
+      path:
+        widget: string
+        label: Pfad
+        index_file: index
     fields:
       - { label: Titel, name: title, widget: string }
       - { label: Position in der Seitenleiste, name: sidebar_position, widget: number, value_type: int, min: 1 }

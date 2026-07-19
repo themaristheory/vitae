@@ -1,7 +1,6 @@
 ---
-title: "Getting Started"
+title: "Healthcare Appointment"
 sidebar_position: 1
-slug: /
 ---
 
 Coming soon.
