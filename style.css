@@ -410,10 +410,3 @@ footer {
   .bio-section { padding: 0 24px 72px; }
   .subpage { padding: 80px 24px 60px; }
 }
-
-.markdown img {
-  max-height: 600px;
-  width: auto;
-  display: block;
-  margin: 1.5rem auto;
-}
