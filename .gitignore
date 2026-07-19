@@ -1,4 +1,6 @@
 node_modules/
+.wrangler/
+.dev.vars
 .docusaurus/
 build/
 .DS_Store

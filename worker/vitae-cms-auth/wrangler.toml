@@ -1,0 +1,6 @@
+name = "vitae-cms-auth"
+main = "src/index.js"
+compatibility_date = "2023-03-24"
+
+[vars]
+ALLOWED_DOMAINS = "vitae.mrbt-software.com"

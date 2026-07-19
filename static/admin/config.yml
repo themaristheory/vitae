@@ -1,0 +1,55 @@
+backend:
+  name: github
+  repo: themaristheory/vitae
+  branch: main
+  base_url: https://vitae-cms-auth.mrbt-software.workers.dev
+
+site_url: https://vitae.mrbt-software.com
+display_url: https://vitae.mrbt-software.com
+logo_url: /uploads/vitae-logo.png
+
+collections:
+  - name: guide_en
+    label: Guide (English)
+    label_singular: Guide page (English)
+    folder: docs
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    media_folder: /static/img/guide/en
+    public_folder: /img/guide/en
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Sidebar position, name: sidebar_position, widget: number, value_type: int, min: 1 }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: guide_pt_br
+    label: Guia (Português do Brasil)
+    label_singular: Página do guia (Português do Brasil)
+    folder: i18n/pt-BR/docusaurus-plugin-content-docs/current
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    media_folder: /static/img/guide/pt-BR
+    public_folder: /img/guide/pt-BR
+    fields:
+      - { label: Título, name: title, widget: string }
+      - { label: Posição na barra lateral, name: sidebar_position, widget: number, value_type: int, min: 1 }
+      - { label: Conteúdo, name: body, widget: markdown }
+
+  - name: guide_de
+    label: Anleitung (Deutsch)
+    label_singular: Anleitungsseite (Deutsch)
+    folder: i18n/de/docusaurus-plugin-content-docs/current
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    media_folder: /static/img/guide/de
+    public_folder: /img/guide/de
+    fields:
+      - { label: Titel, name: title, widget: string }
+      - { label: Position in der Seitenleiste, name: sidebar_position, widget: number, value_type: int, min: 1 }
+      - { label: Inhalt, name: body, widget: markdown }
